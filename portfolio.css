@@ -1,0 +1,110 @@
+.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: auto;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.welcome h2 {
+    margin-top: 0;
+}
+
+.welcome p {
+    margin-bottom: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.main p {
+    line-height: 1.9;
+    font-family: Inter, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+.gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px;
+    overflow-x: auto;
+}
+.gallery a {
+    display: block;
+    width: 360px;
+    padding: 0;
+}
+.gallery img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.contact h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 16px;
+    text-align: center;
+}
+
+.footer-contacts {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-contacts h2 {
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-contacts a {
+    color: #ffffff;
+    text-decoration: underline;
+}
